@@ -130,6 +130,14 @@ a {
   text-shadow: #0090ff 0px 0px 2px;
 }
 
+#main_content #tagline {
+  font-style:italic;
+}
+
+#main_content ul li{
+  list-style-type: none;
+}
+
 footer a:hover {
   color: #43adff;
   text-shadow: #0090ff 0px 0px 2px;
@@ -257,11 +265,6 @@ form {
   padding: 20px;
 }
 
-img {
-  width: 100%;
-  max-width: 100%;
-}
-
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -271,10 +274,25 @@ Full-Width Styles
 }
 
 .inner {
-  position: relative;
-  max-width: 640px;
+  max-width: 540px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+.side {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0px;
+}
+
+.side a {
+
+}
+
+.side img {
+  border: none;
+  padding: 0px;
 }
 
 #forkme_banner {
@@ -311,6 +329,7 @@ Full-Width Styles
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  width: 120px;
 }
 
 #project_tagline {
@@ -360,15 +379,38 @@ Full-Width Styles
   background: url(../images/sprite_download.png) no-repeat top right;
 }
 
-#main_content_wrap {
+div#main_content_wrap {
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
-#main_content {
+div#main_content {
   padding-top: 40px;
 }
+
+#main_content ul {
+  background-color: #cfcfcf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div#side_bar {
+  padding-top: 40px;
+}
+
+#project_title img{
+  width:   120px;
+  border:  none;
+  margin:  0px;
+  padding: 0px;
+}
+
+#project_location{
+ text-align: right;
+ color: #fff;
+}
+
 
 #footer_wrap {
   background: #212121;
@@ -427,5 +469,4 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
-
 }
