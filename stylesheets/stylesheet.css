@@ -36,7 +36,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 ol, ul {
-  list-style: none;
+  list-style: decimal;
 }
 
 blockquote, q {
@@ -134,8 +134,12 @@ a {
   font-style:italic;
 }
 
+#main_content ul{
+  padding: 10px 5px 10px 5px;
+}
+
 #main_content ul li{
-  list-style-type: none;
+  list-style-type: decimal;
 }
 
 footer a:hover {
@@ -158,12 +162,6 @@ img {
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 pre, code {
@@ -311,12 +309,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
+  background-color: #45658e;
+  /*background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);*/
 }
 
 #header_wrap .inner {
@@ -325,11 +323,10 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  color: #fff;
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
-  width: 120px;
+  text-align: center;
 }
 
 #project_tagline {
@@ -390,7 +387,7 @@ div#main_content {
 }
 
 #main_content ul {
-  background-color: #cfcfcf;
+  background-color: #faaf40;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -400,7 +397,6 @@ div#side_bar {
 }
 
 #project_title img{
-  width:   120px;
   border:  none;
   margin:  0px;
   padding: 0px;
@@ -408,14 +404,29 @@ div#side_bar {
 
 #project_location{
  text-align: right;
- color: #fff;
+ color: #000;
 }
 
+#project_location a{
+ color: #000;
+}
 
 #footer_wrap {
-  background: #212121;
+  background-color: #45658e;
+  color: #000;
 }
 
+#footer_wrap .outer {
+  color: #000;
+}
+
+#footer_wrap a {
+  color: #000;
+}
+
+.copyright {
+  color: #000;
+}
 
 
 /*******************************************************************************
