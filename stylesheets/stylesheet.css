@@ -131,11 +131,15 @@ a {
 }
 
 #main_content #tagline {
-  font-style:italic;
+  font-style: italic;
+  text-align: justify;
 }
 
 #main_content ul{
   padding: 10px 5px 10px 5px;
+  -moz-border-radius: 15px; //for mozilla support
+  -webkit-border-radius: 15px; //for chrome support
+  border-radius: 15px;
 }
 
 #main_content ul li{
@@ -175,8 +179,6 @@ pre, code {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-
 
 }
 
@@ -268,6 +270,15 @@ form {
   font-size: 20px;
 }
 
+.order_now {
+  width: 130px;
+  height: 50px;
+  font-size: 14px;
+  margin-top: 15px;
+  padding: 5px;
+  font-style: bold;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -277,13 +288,13 @@ Full-Width Styles
 }
 
 .inner {
-  max-width: 540px;
+  max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
 }
 
 .side {
-  max-width: 540px;
+  max-width: 640px;
   margin: 0 auto;
   text-align: left;
   padding: 0px;
@@ -323,7 +334,12 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+/*  padding: 50px 10px 30px 10px;*/
+}
+
+#header_wrap .outer {
+   border-bottom-width: 50px;
+   border-bottom-style: solid;
 }
 
 #project_title {
@@ -395,6 +411,15 @@ div#main_content {
   background-color: #faaf40;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 20px;
+
+  border-radius: 15px;
+  -moz-border-radius: 15px; //for mozilla support
+  -webkit-border-radius: 15px; //for chrome support
+}
+
+#main_content ul li {
+  padding: 10px;
 }
 
 div#side_bar {
