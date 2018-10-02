@@ -143,7 +143,7 @@ a {
 }
 
 #main_content ul li{
-  list-style-type: none;
+  list-style-type: decimal;
 }
 
 footer a:hover {
