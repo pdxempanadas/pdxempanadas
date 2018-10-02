@@ -217,7 +217,7 @@ ul li {
 }
 
 ol li {
-  list-style: decimal inside;
+  list-style: none;
   padding-left: 20px;
 }
 
