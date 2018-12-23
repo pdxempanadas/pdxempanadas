@@ -59,7 +59,7 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -271,12 +271,12 @@ form {
 }
 
 .order_now {
-  width: 130px;
+  width: 200px;
   height: 50px;
   font-size: 14px;
+  font-weight: bold;
   margin-top: 15px;
   padding: 5px;
-  font-style: bold;
 }
 
 /*******************************************************************************
@@ -403,6 +403,12 @@ div#main_content_wrap {
   border-bottom: 1px solid #111;
 }
 
+#main_content_wrap .quote-wrapper {
+  background-color: white;
+  text-align: left;
+  padding: 0 10px;
+}
+
 div#main_content {
   padding-top: 40px;
 }
@@ -465,7 +471,7 @@ Small Device Styles
 
 @media screen and (max-width: 480px) {
   body {
-    font-size:14px;
+    font-size:18px;
   }
 
   #downloads {
