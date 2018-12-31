@@ -438,6 +438,11 @@ div#side_bar {
   padding: 0px;
 }
 
+#project_twitter{
+ text-align: center;
+ color: #000;
+}
+
 #project_location{
  text-align: right;
  color: #000;
