@@ -1,5 +1,7 @@
 # PDX Empanadas
 
+PDX Empanadas is a food cart in the Portland, Oregon area.
+
 This code is the one use to host the site for the menu and info about the food cart PDX Empanadas. Quite simple.
 
 To run the server locally
