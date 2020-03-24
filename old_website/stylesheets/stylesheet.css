@@ -110,7 +110,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #ff0000;
+  color: #007edf;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -126,7 +126,7 @@ a {
 }
 
 #main_content a:hover {
-  color: #ff0000;
+  color: #0069ba;
   text-shadow: #0090ff 0px 0px 2px;
 }
 
@@ -271,12 +271,12 @@ form {
 }
 
 .order_now {
-  width: 250px;
-  height: 55px;
+  width: 400px;
+  height: 60px;
   font-size: 14px;
   font-weight: bold;
-  margin-top: 12px;
-  padding: 2px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 #mini {
@@ -337,20 +337,12 @@ Full-Width Styles
   background: linear-gradient(top, #373737, #212121);*/
 }
 
-#below_header {
-  background-color: #ffffff;
-  text-align: center;
-  letter-spacing: 5px;
-  color: #ff0000;
-  border-bottom-style: solid;
-}
-
 #header_wrap .inner {
 /*  padding: 50px 10px 30px 10px;*/
 }
 
 #header_wrap .outer {
-   border-bottom-width: 10px;
+   border-bottom-width: 50px;
    border-bottom-style: solid;
 }
 
@@ -359,7 +351,7 @@ Full-Width Styles
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
-  text-align: left;
+  text-align: center;
 }
 
 #project_tagline {
