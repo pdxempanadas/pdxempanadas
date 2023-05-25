@@ -1,3 +1,6 @@
+| :exclamation:  After 10 years of running PDX Empanadas, we are letting it go! We are moving south and selling the whole business. Contact us if you are interested in it.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 # PDX Empanadas
 
 PDX Empanadas is a food cart in the Portland, Oregon area.
