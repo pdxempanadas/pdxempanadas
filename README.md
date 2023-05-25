@@ -9,7 +9,7 @@ This code is the one use to host the site for the menu and info about the food c
 
 To run the server locally
 ```
-$ python -m SimpleHTTPServer
+$ python3 -m http.server
 ```
 
 ## Our Story
